@@ -1,3 +1,4 @@
+This is LaTeX template for a CV(Curriculum Vitae), Résumé or Cover Letter 
 
 #### Requirements
 1. You need to install docker and run it
