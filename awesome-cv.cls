@@ -557,6 +557,8 @@
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
   \begin{justify}
+  \hyphenpenalty=10000 % Không ngắt từ
+  \exhyphenpenalty=10000 % Không chèn dấu -
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
