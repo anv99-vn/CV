@@ -1,23 +1,29 @@
 \cvsection{Projects} %	SECTION TITLE
 \begin{cventries} %	CONTENT
+
   \cvsimpleentry
-    {\href{https://github.com/tuan-tt/calling_variant}{\textbf{Calling Variant}}} % Name
-    {2018} % Date
+    {\href{https://github.com/anv99-vn/kafka-mini}{\textbf{Kafka-Mini}}} % Name
+    {2026} % Date
     {
       \begin{cvitems} % Description
-        \item {Developed a command-line tool for calling variant from DNA-sequencing data using \textbf{C}.}
-        \item {Used \textbf{Burrow-Wheeler Aligner} for short-read alignment and \textbf{Bayesian model} for detecting mutations.}
-        \item {This tool was \textbf{three times faster} than GATK (the state-of-the-art tool of this field at that time).}
+        \item {\textbf{GitHub}: \href{https://github.com/anv99-vn/kafka-mini}{https://github.com/anv99-vn/kafka-mini}}
+        \item {Developed a lightweight, distributed message broker in \textbf{Go}, implementing core concepts such as topics, partitions, and consumer groups.}
+        \item {Implemented the \textbf{Raft consensus algorithm} from scratch to ensure metadata consistency across broker nodes and enable automatic leader election.}
+        \item {Designed a persistent storage engine using append-only log files (\textbf{.bin}) and indexes (\textbf{.idx}) to ensure high-performance message retrieval and durability.}
+        \item {Built a \textbf{gRPC-based API} for client-broker communication, featuring dynamic consumer group rebalancing and offset management.}
       \end{cvitems}
     }
 
   \cvsimpleentry
-    {\href{https://github.com/kspham/mdup}{\textbf{Mdup}}} % Name
-    {2018} % Date
+    {\href{https://github.com/anv99-vn/db-java}{\textbf{DB-Java}}} % Name
+    {2026} % Date
     {
       \begin{cvitems} % Description
-        \item {Developed a command-line tool for preprocessing linked-reads DNA-sequencing data.}
-        \item {Used \textbf{hash algorithm, dynamic allocation memory}, and \textbf{multi-threading} to optimize storage and facilitate speed. This tool reduced the waiting time by \textbf{80\%} compared to other applications.}
+        \item {\textbf{GitHub}: \href{https://github.com/anv99-vn/db-java}{https://github.com/anv99-vn/db-java}}
+        \item {Developed a Relational Database Management System (RDBMS) in \textbf{Java}, featuring a custom SQL engine supporting CRUD operations and table management.}
+        \item {Implemented a \textbf{disk-based B-Tree} indexing system to optimize query execution and manage large-scale data persistence effectively.}
+        \item {Built a custom \textbf{SQL Tokenizer} and parser capable of processing complex queries with support for various data types and string literals.}
+        \item {Engineered a block-based storage layer to manage physical data mapping on disk, ensuring data integrity and persistence across system restarts.}
       \end{cvitems}
     }
 
